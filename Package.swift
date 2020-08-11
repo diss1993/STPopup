@@ -11,7 +11,7 @@ let package = Package(
             name: "STPopup",
             path: "STPopup",
             cSettings: [
-                .headerSearchPath("STPopup"),
+                .headerSearchPath("UI"),
             ]
         )
     ]
