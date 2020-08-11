@@ -9,7 +9,7 @@ let package = Package(
     targets: [
         .target(
             name: "STPopup",
-            path: "STPopup",
+            path: "STPopup"
         )
     ]
 )
