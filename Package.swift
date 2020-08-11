@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+
 import PackageDescription
 
 let package = Package(
@@ -9,7 +9,10 @@ let package = Package(
     targets: [
         .target(
             name: "STPopup",
-            path: "STPopup"
+            path: "STPopup",
+            cSettings: [
+                .headerSearchPath("STPopup"),
+            ]
         )
     ]
 )
